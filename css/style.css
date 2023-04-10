@@ -1,0 +1,81 @@
+body{ font-family:'Montserrat', sans-serif;}
+ul{display: flex; list-style-type: none;}
+li{padding: 10px;}
+a{text-decoration: none;color:rgb(0, 0, 0);transition:1s all;}
+.fw-bold{font-weight: bold;}
+*{margin: 0;}
+.img-fluid{width: 100%;
+height: auto;}
+p{font-size: 14px;}
+.encabezado{background-image: linear-gradient(135deg, #f9f8fdff, #f8f7fcff, #f4f4f4ff, #faf3fbff, #f7f6fbff);}
+body{background-image:linear-gradient(0deg, #F7F6FBff, #F7F6FBff, #F5F0F6ff, #F2ECF8ff, #F3F2F8ff, #F3EBF8ff);}
+/* ELEMENTO */
+
+
+/* DESKTOP */
+@media (min-width:1024px){}
+
+/* MOBILE */
+@media (max-width:768px){
+   /* GENERAL MOBILE */
+    .encabezado, .pie{
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .encabezado__nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+        padding-left: 5px;
+        
+    }
+    .pie{font-size: 15px;}
+    .piep{font-size: 12px; }
+    .pie_logo{ margin: 1rem;}
+    .pie_contacto{display: contents;
+    line-height: 1.5;}
+
+.pie_rrss{line-height: 1.5;}
+.sizeimg{width: 100%;
+height: auto;}    
+.iconos{ margin-left: 40px;}
+
+    /* HOME MOBILE */
+    .encabezado_img{margin-top: 1.5rem;}
+    .contenido{
+        align-items:center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    hr {width: 150px;
+        height: 0.5px;
+        background-color: black;
+        margin-bottom: 30px;
+       
+      }
+    .contenidovariable{padding: 20px; }
+   .contenido_titulo{display: flex;
+margin-bottom: 10px;}
+    .context{line-height: 2;
+        text-decoration: none;
+    }
+    /* NOSOTROS MOBILE */
+   .gridcontenido_nos{display: flex;
+flex-direction: column;
+text-align: left;
+line-height: 1.5;
+margin-bottom: 20px;}
+.text_align{text-align: center;}
+.video{width: 100%;
+height: auto;}
+   
+    
+
+
+
+}
