@@ -69,9 +69,10 @@ margin-bottom: 10px;}
 flex-direction: column;
 text-align: left;
 line-height: 1.5;
-margin-bottom: 20px;}
+margin-bottom: 30px;}
 .text_align{text-align: center;}
-
+.margin_nos{ margin: 20px;}
+.video {margin: 10px;}
    
     
 
