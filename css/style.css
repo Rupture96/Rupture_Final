@@ -1,23 +1,90 @@
-body{ font-family:'Montserrat', sans-serif;}
+body{ font-family:'Montserrat', sans-serif;
+    background: linear-gradient(0deg, #F2EDF4ff, #F5EFF9ff, #F4F5FAff, #F5F4FAff, #F3F7FAff);}
 ul{display: flex; list-style-type: none;}
-li{padding: 10px;}
-a{text-decoration: none;color:rgb(0, 0, 0);transition:1s all;}
+a{text-decoration: none;color:rgb(0, 0, 0);transition:3s all;}
+/* ELEMENTO */
 .fw-bold{font-weight: bold;}
 *{margin: 0;}
 .img-fluid{width: 100%;
 height: auto;}
 p{font-size: 14px;}
-.encabezado{background-image: linear-gradient(135deg, #f9f8fdff, #f8f7fcff, #f4f4f4ff, #faf3fbff, #f7f6fbff);}
-body{background-image:linear-gradient(0deg, #F7F6FBff, #F7F6FBff, #F5F0F6ff, #F2ECF8ff, #F3F2F8ff, #F3EBF8ff);}
-/* ELEMENTO */
+.text_align{text-align: center;
+padding-top: 15px;}
+
+
 
 
 /* DESKTOP */
-@media (min-width:1024px){}
+@media (min-width:1024px){
+    .encabezado{position: fixed;
+        margin: 20px;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;}
+    .encabezado_nav{padding-left: 500px}
+    .grid{
+        display: grid;
+        grid-template-areas: 
+        "header"    
+        "main"
+        "footer";
+        grid-template-columns:100%;
+        grid-template-rows:auto auto auto ;} 
+header{ grid-area: header;}
+main{grid-area: main;}
+footer{grid-area: footer;}
+     
+.pie{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}  
+    /*MAIN  */
+.paddingnav{ padding-left: 50px;}
+.contenido_contacto{ display: flex;
+align-items: center;
+flex-direction: column;}
+.contenidovariable{margin: 20px;}
+.sizeimg{width: 100%;
+    height: auto;}
+.grid_drops{display: grid;
+    grid-template-areas:"contenido_1 contenido_2 contenido_3 contenido_4" 
+    "titulofav titulofav titulofav titulofav"
+    "contenido_fav1 contenido_fav2 contenido_fav3 contenido_fav4";
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: auto auto auto auto;
+grid-gap: 20px;}
+.contenido_1{grid-area: contenido_1;}
+.contenido_2{grid-area: contenido_2;}
+.contenido_3{grid-area: contenido_3;}
+.contenido_4{grid-area: contenido_4;}
+.contenido_fav1{grid-area: contenido_fav1;}
+.contenido_fav2{grid-area: contenido_fav2;}
+.contenido_fav3{grid-area: contenido_fav3;}
+.contenido_fav4{grid-area: contenido_fav4;}
+.titulofav{grid-area: titulofav;
+margin-top: 50px;}
+
+.txt_nos1, .txt_nos2{ margin: 30px;
+line-height: 1.5;
+font-size: 20px;}
+
+.video{margin-bottom: 30px;}
+
+.marginborder{margin-left: 20px;}  
+  /*FOOTER  */
+  .iconos{display: flex;
+justify-content: space-between;
+margin-top: 10px;}
+}
+
 
 /* MOBILE */
 @media (max-width:768px){
    /* GENERAL MOBILE */
+
     .encabezado, .pie{
         color: rgb(0, 0, 0);
         display: flex;
@@ -25,11 +92,11 @@ body{background-image:linear-gradient(0deg, #F7F6FBff, #F7F6FBff, #F5F0F6ff, #F2
         justify-content: space-between;
         align-items: center;
     }
-    .encabezado__nav{
+    .encabezado_nav{
+        padding: 0;
         flex-wrap: wrap;
-        justify-content: center;
         font-size: 15px;
-        padding-left: 5px;
+        justify-content: space-between;
         
     }
     .pie{font-size: 15px;}
@@ -42,9 +109,10 @@ body{background-image:linear-gradient(0deg, #F7F6FBff, #F7F6FBff, #F5F0F6ff, #F2
 .sizeimg{width: 100%;
 height: auto;}    
 .iconos{ margin-left: 40px;}
-
+.paddingnav{padding-left: 5px;}
     /* HOME MOBILE */
     .encabezado_img{margin-top: 1.5rem;}
+
     .contenido{
         align-items:center;
         display:flex;
@@ -58,24 +126,21 @@ height: auto;}
         margin-bottom: 30px;
        
       }
-    .contenidovariable{padding: 20px; }
-   .contenido_titulo{display: flex;
+.contenidovariable{padding: 20px; }
+.contenido_titulo{display: flex;
 margin-bottom: 10px;}
-    .context{line-height: 2;
+.context{line-height: 2;
         text-decoration: none;
     }
     /* NOSOTROS MOBILE */
-   .gridcontenido_nos{display: flex;
+.gridcontenido_nos{display: flex;
 flex-direction: column;
 text-align: left;
 line-height: 1.5;
 margin-bottom: 30px;}
-.text_align{text-align: center;}
 .margin_nos{ margin: 20px;}
-.video {margin: 10px;}
+
    
     
-
-
 
 }
