@@ -7,6 +7,9 @@
     <title>RUPTURE</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/FAVICON.png" type="image/x-icon">
+     <!-- link aos -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- css -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -20,13 +23,11 @@
     <nav>
 
     <ul class="encabezado_nav ">
-        <li class="paddingnav"><a href="../index.html">Home</a></li>
+        <li class="paddingnav"><a href="../index.html">Home</a></li>  
+        <li class="paddingnav"><a href="#">Nosotrxs</a></li>
         <li class="paddingnav"><a href="../pages/productos.html">Productos</a></li>
-       <li class="paddingnav"><a href="#">Nosotros</a></li>
-        <li class="paddingnav"><a href="../pages/contacto.html">Contacto</a></li>
-        <li class="paddingnav"><a href="../pages/carrito.html"><img src="../img/Iconos/bagnegro.png" alt="Carrito"></a></li>
-        <li class="paddingnav"><a href="../pages/productos.html"><img src="../img/Iconos/lupa-de-busquedanegro.png" alt="lupa"></a>
-        </li>
+         <li class="paddingnav"><a href="../pages/contactanos.html">Contacto</a></li>
+         <li class="paddingnav"><a href="../pages/envios.html">Envíos</a></li>
     </ul>
     
               </nav>
@@ -34,10 +35,10 @@
 </header> 
 <!--Contenido productos  -->
 <main class="gridcontenido_nos">
-    <div class="imgpr">
+    <div class="img-nosotros">
         <img src="../img/nosotros.png" class="img-fluid">
     </div>
-<div class="txt_nos1 margin_nos">
+<div class="txt_nos1 margin_nos" data-aos="fade-right">
     <p>Somos una marca independiente, que mezcla el arte de la serigrafia, con lo textil y lo visual.
         Rupture surge de la necesidad de crear un lugar, un algo fisico en lo que pudiera poner mi creatividad en movimiento 
         y desafiarme día a día. De la necesidad de buscar una ruptura en lo que somos y vemos .
@@ -46,12 +47,12 @@
 </div>
 <div class="txt_nos2">
     <div class="video"><iframe width="100%" height="400" src="https://www.youtube.com/embed/i9U2tPbhmbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-   <h3 class="margin_nos">COLABORACIONES</h3>
+   <div data-aos="fade-right">
+    <h3 class="margin_nos" >COLABORACIONES</h3>
     <p class="margin_nos">Siempre nos ha gustado colaborar con marcas con las que tenemos afinidad y con las que hemos creído que podíamos llevar a cabo grandes proyectos.
-
-        Hemos trabajado con distintos proyectos artisticos y para públicos muy diferentes, 
-        pero siempre manteniendo nuestra personalidad en el diseño, el tono y la forma de acercarnos al público.</p>
-    
+Hemos trabajado con distintos proyectos artisticos y para públicos muy diferentes, 
+pero siempre manteniendo nuestra personalidad en el diseño, el tono y la forma de acercarnos al público.</p>
+    </div>
     </div>
 
 
@@ -63,8 +64,8 @@
    <img src="../img/LOGO LINEAS.png" >
   </div>
 <div class="pie_rrss">
-    <h3 class="fw-bold">REDES SOCIALES</h3>
-    <div class="iconos">
+    <h2 class="fw-bold ">REDES SOCIALES</h2>
+    <div class="pright iconos">
         <a href="https://www.instagram.com/rupture____/" target="_blank"> <img src="../img/Iconos/logotipo-de-instagram.png" alt=""></a>
         <a href="https://www.behance.net/pilarfleitas/projects" target="_blank"> <img src="../img/Iconos/behance.png"></a>
         <a href="https://es-es.facebook.com/"><img src="../img/Iconos/facebook.png" alt=""></a>
@@ -72,12 +73,17 @@
 </div>  
    
   <div class="pie_contacto">
-    <h3 class="fw-bold">CONTACTO</h3>
+    <h2 class="fw-bold fs">CONTACTO</h2>
     <p class="piep">rupture@gmail.com</p>
     <p class="piep">+598 92 911 785</p>
     </div>
 </div>
 </footer>
 </div>
+<!-- script aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script>
+    AOS.init();
+  </script> 
 </body>
 </html>

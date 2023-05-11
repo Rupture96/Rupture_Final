@@ -5,133 +5,202 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUPTURE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/FAVICON.png" type="image/x-icon">
+    <!-- link aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="grid">
-        <!-- Navegación -->
-   <header class="encabezado">
-
-   <div class="encabezado_img">
-        <img src="img/LOGO LINEAS.png" alt="">
-    </div>
-    <nav>
-    <ul class="encabezado_nav">
-        <li class="paddingnav"><a href="#">Home</a></li>
-        <li class="paddingnav"><a href="pages/productos.html">Productos</a></li>
-       <li class="paddingnav"><a href="pages/nosotros.html">Nosotros</a></li>
-        <li class="paddingnav"><a href="pages/contacto.html">Contacto</a></li>
-        <li class="paddingnav"><a href="pages/carrito.html"><img src="img/Iconos/bagnegro.png" alt="Carrito"></a></li>
-        <li class="paddingnav"><a href="pages/productos.html"><img src="img/Iconos/lupa-de-busquedanegro.png" alt="lupa"></a>
-        </li>
-    </ul>
+<body class="bg-gradient">
+    <!-- ENCABEZADO -->
+    <header class="container-fluid align-items-center background">
+      <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid justify-content-center">
+              <a class="navbar-brand" href="#">
+                  <img src="img/LOGO LINEAS.png" alt="Bootstrap" width="200" height="57">
+                </a>
+            <button class="navbar-toggler col-12" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/nosotros.html">Nosotrxs</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="pages/contacto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contacto
+                  </a>
+                  <ul class="dropdown-menu" >
+                    <li><a class="dropdown-item" href="pages/contactanos.html">Escríbenos</a></li>
+                    <li><a class="dropdown-item" href="pages/envios.html">Envios</a></li>
+                    
+                  </ul>
+                </li>
+                
+              </ul>
+              
+  
+            </div>
+          </div>
+        </nav>
+      </header>
+     
+     
+   <main>
     
-              </nav>
+    <div>
+      <img src="img/DSC_8320.png" class="d-block w-100" alt="...">
+    </div>
+  
+  
+     
+    <!--========================================================== -->
+                        <!-- TOP PRODUCTOS-->
+    <!--========================================================== -->
+<div class="container mt-4 mb-3" data-aos="fade-up" >
+  <div class="mt-3" ><H2 class="text-center">ÚLTIMOS DROPS</H2></div>
+  <div class="row  row-cols-4">
 
-</header> 
-<!--Contenido home  -->
-<main class="contenido">
+    <div class="col-lg col-12 d-flex justify-content-center mb-2">
+      <div class="card" >
+        <img src="img/bocaroja.jpg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">BIG MOUTH</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg col-12 d-flex justify-content-center  mb-3 ">
+      <div class="card" >
+        <img src="img/frank.jpg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">FRANK O.</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+        
+      </div>
+    </div>
 
-<div class="contenido_imgtitulo">
-    <img src="img/DSC_8324888.jpg" class="img-fluid">
+    <div class="col-lg col-12 d-flex justify-content-center  mb-3">
+      <div class="card">
+        <img src="img/corazones.jpeg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">EXPLOVE</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+      </div>
+  </div>
+  
+    <div class="col-lg col-12 d-flex justify-content-center  mb-3">
+      <div class="card">
+        <img src="img/rosalia.jpeg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">MOTOMAMI</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+      </div>
+  </div>
 </div>
-<div class="contenidovariable">
-   <div class="contenido_titulo">
-    <h2>ÚLTIMOS DROPS</h1>
-   </div>
+</div>
+
+<div class="container mt-4 mb-3 " data-aos="fade-up" >
+  <div><H2 class="text-center">FAVS</H2></div>
+  <div class="row  row-cols-4">
+
+    <div class="col-lg col-12 d-flex justify-content-center mb-3">
+      <div class="card">
+        <img src="img/mustang.jpg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">MUSTANG</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+      </div>
+    </div>
    
-   <div class="grid_drops">
-     <div class="contenido_1 mb20">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/bocaroja.jpg" alt="" class="img-fluid"></a>
+    <div class="col-lg col-12 d-flex justify-content-center mb-3">
+      <div class="card">
+        <img src="img/clip.jpg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">CLIP</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+        
+      </div>
     </div>
-    <div class="context">
-        <a href="pages/productos.html"><h3>BIG MOUTH</h3></a>
-    <p>DROP 2023</p>
-    </div>
-     </div>
-     <div class="contenido_2">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/frank.jpg" alt="" class="img-fluid"></a>
-    </div>
-    <div class="context">
-        <a href="pages/productos.html"><h3>FRANK OCEAN</h3></a>
-    <p>DROP 2023</p>
-    </div>
-     </div>
-     <div class="contenido_3">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/rosalia.jpeg" alt="" class="img-fluid"></a>
-    </div>
-    <div class="context"> 
-        <a href="pages/productos.html"><h3>MOTOMAMI</h3></a>
-    <p>DROP 2023</p>
-    </div>
-    
-     </div>
-     <div class="contenido_4">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/corazones.jpeg" alt="" class="img-fluid"></a>
-    </div>
-    <div class="context">
-        <a href="pages/productos.html"><h3>LOVE EXPLOSION</h3></a>
-    <p>DROP 2023</p>
-    </div>
-    </div>
-   <h2 class="titulofav">FAVORITOS</h2>
 
- 
-    <div class="contenido_fav1">
-        <img src="img/mustang.jpg" class="img-fluid">
-        <h3>MUSTANG</h3>
-        <p>DROP 2022</p>
-    </div>
-    <div class="contenido_fav2">
-        <img src="img/clip.jpg" class="img-fluid"> 
-        <H3>CLIP</H3>
-        <p>DROP 2022</p>
-    </div>
-    <div class="contenido_fav3">
-        <img src="img/MAS.jpg" class="img-fluid"> 
-        <h3>MÁS</h3>
-        <p>DROP 2022</p>
-    </div>
-    <div class="contenido_fav4">
-        <img src="img/6424e0c397aa03.14880445.jpg" class="img-fluid"> 
-        <h3>HOPE</h3>
-        <p>DROP 2022</p>
-    </div>
-    
-    </div>
+    <div class="col-lg col-12 d-flex justify-content-center mb-3 ">
+      <div class="card">
+        <img src="img/masamor.jpeg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">MÁS AMOR</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+      </div>
+  </div>
+  
+    <div class="col-lg col-12 d-flex justify-content-center mb-3">
+      <div class="card">
+        <img src="img/6424e0c397aa03.14880445.jpg" class="card-img-top" alt="...">
+        <div class="text-center">
+          <h5 class="card-title">HOPE</h5>
+          <a href="#" class="btn btn-primary btn-outline-light mb-1">Comprar</a>
+        </div>
+      </div>
+  </div>
+</div>
 </div>
 
-</div>
+
 
 
 </main>
-<!-- Pie de pagina -->
-<footer class="pie">
-    <div class="pie_logo">
-   <img src="img/LOGO LINEAS.png" >
-  </div>
-<div class="pie_rrss">
-    <h4 class="fw-bold">REDES SOCIALES</h4>
-    <div class="iconos">
-        <a href="https://www.instagram.com/rupture____/" target="_blank"> <img src="img/Iconos/logotipo-de-instagram.png" alt=""></a>
-        <a href="https://www.behance.net/pilarfleitas/projects" target="_blank"> <img src="img/Iconos/behance.png"></a>
-        <a href="https://es-es.facebook.com/"><img src="img/Iconos/facebook.png" alt=""></a>
-   </div>
-</div>  
-   
-  <div class="pie_contacto">
-    <h4 class="fw-bold">CONTACTO</h4>
-    <p class="piep">rupture@gmail.com</p>
-    <p class="piep">+598 92 911 785</p>
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+<hr class="featurette-divider">
+
+<footer class="mt-4">
+  
+  <div class="container text-center">
+      <div class="row">
+        <div class="col-lg col-sm-12">
+    
+            <img src="img/LOGO LINEAS.png" >
+    
+        </div>
+        <div class="col-lg col-sm-12 mt-3">
+          <h4 class="fw-bold">REDES SOCIALES</h4>
+          <div>
+              <a href="https://www.instagram.com/rupture____/" target="_blank"  class="pright"> <img src="img/Iconos/logotipo-de-instagram.png" alt=""></a>
+              <a href="https://www.behance.net/pilarfleitas/projects" target="_blank"  class="pright"> <img src="img/Iconos/behance.png"></a>
+              <a href="https://es-es.facebook.com/"  class="pright"><img src="img/Iconos/facebook.png" alt=""></a>
+        </div>
+      </div>
+        <div class="col-lg col-sm-12 mt-3">
+          <h4 class="fw-bold">CONTACTO</h4>
+          <p class="piep">rupture@gmail.com</p>
+          <p class="piep">+598 92 911 785</p>
+        </div>
+      </div>
     </div>
-</div>
 </footer>
-</div>
+<!-- archivo bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+<!-- script aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

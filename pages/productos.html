@@ -5,107 +5,214 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUPTURE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/FAVICON.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/FAVICON.png" type="image/x-icon">
+    <!-- link aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    <div class="grid">
-        <!-- Navegación -->
-   <header class="encabezado">
+<body class="bg-gradient">
+    <!-- ENCABEZADO -->
+    <header class="container-fluid align-items-center background">
+      <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid justify-content-center">
+              <a class="navbar-brand" href="#">
+                  <img src="../img/LOGO LINEAS.png" alt="Bootstrap" width="200" height="57">
+                </a>
+            <button class="navbar-toggler col-12" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotrxs</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../pages/contacto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacto
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../pages/contactanos.html">Escríbenos</a></li>
+                  <li><a class="dropdown-item" href="../pages/envios.html">Envios</a></li>
+                  
+                </ul>
+              </li>
+              
+            </ul>
+            
 
-   <div class="encabezado_img">
-        <img src="../img/LOGO LINEAS.png" alt="">
-    </div>
-    <nav>
-
-    <ul class="encabezado_nav ">
-        <li class="paddingnav"><a href="../index.html">Home</a></li>
-        <li class="paddingnav"><a href="#">Productos</a></li>
-       <li class="paddingnav"><a href="../pages/nosotros.html">Nosotros</a></li>
-        <li class="paddingnav"><a href="../pages/contacto.html">Contacto</a></li>
-        <li class="paddingnav"><a href="../pages/carrito.html"><img src="../img/Iconos/bagnegro.png" alt="Carrito"></a></li>
-        <li class="paddingnav"><a href="../pages/productos.html"><img src="../img/Iconos/lupa-de-busquedanegro.png" alt="lupa"></a>
-        </li>
-    </ul>
-    
-              </nav>
-
-</header> 
-<!--Contenido home  -->
-<main class="contenido">
-
-<div class="contenido_imgtitulo">
-    <img src="../img/productos.png" class="img-fluid">
-</div>
-<div class="contenidovariable">
-<div class="contenido_titulo">
-    <h2>ÚLTIMOS DROPS</h1>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div>
+            <img src="../img/productos.png" class="d-block w-100" alt="...">
+          </div>
+        <!--========================================================== -->
+                        <!-- TOP PRODUCTOS-->
+    <!--========================================================== -->
+<div  data-aos="fade-up" class="container mt-4 mb-3 ">
+    <div class="row  row-cols-4">
+  
+      <div class="col-lg col-12 d-flex justify-content-center mb-2">
+        <div>
+          <img src="../img/bocaroja.jpg" class="card-img-top" alt="...">
+            <h5>Big Mouth</h5>
+            <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+          </div>
+      </div>
      
-</div>
-<hr>
-<div class="contenido_1 mb20">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/rupturerojo.jpg" alt="" class="img-fluid"></a>
-    </div>
-    <div class="context">
-        <a href="pages/productos.html"><h3>BIG MOUTH</h3></a>
-    <p>DROP 2023</p>
-    </div>
-</div>
-<div class="contenido_2">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/rupturerojo.jpg" alt="" class="img-fluid"></a>
-    </div>
-    <div class="context">
-        <a href="pages/productos.html"><h3>FRANK OCEAN</h3></a>
-    <p>DROP 2023</p>
-    </div>
-</div>
-<div class="contenido_3">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/rupturerojo.jpg" alt="" class="img-fluid"></a>
-    </div>
-    <div class="context"> 
-        <a href="pages/productos.html"><h3>MAC MILLER</h3></a>
-    <p>DROP 2023</p>
+      <div class="col-lg col-12 d-flex justify-content-center  mb-3 ">
+        <div>
+          <img src="../img/frank.jpg" class="card-img-top" alt="...">
+          <h5>Frank O.</h5>
+          <p>700$</p>
+          <a href="#" class="btn btn-outline-dark">Comprar</a>
+          
+          
+        </div>
+      </div>
+  
+      <div class="col-lg col-12 d-flex justify-content-center  mb-3">
+         <div>
+             <img src="../img/rosalia.jpeg" class="card-img-top" alt="...">
+             <h5>Motomami</h5>
+             <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+        </div>
     </div>
     
-</div>
-<div class="contenido_img4">
-    <div class="sizeimg">
-        <a href="pages/productos.html"><img src="img/rupturerojo.jpg" alt="" class="img-fluid"></a>
-    </div>
-    <div class="context">
-        <a href="pages/productos.html"><h3>LOVE EXPLOSION</h3></a>
-    <p>DROP 2023</p>
-    </div>
-</div>
-</div>
-
-
-</main>
-<!-- Pie de pagina -->
-<footer class="pie">
-    <div class="pie_logo">
-   <img src="../img/LOGO LINEAS.png" >
+     
   </div>
-<div class="pie_rrss">
-    <h4 class="fw-bold">REDES SOCIALES</h4>
-    <div class="iconos">
-        <a href="https://www.instagram.com/rupture____/" target="_blank"> <img src="../img/Iconos/insta.png" alt=""></a>
-        <a href="https://www.behance.net/pilarfleitas/projects" target="_blank"> <img src="../img/Iconos/benegro.png"></a>
-        <a href="https://es-es.facebook.com/"><img src="../img/Iconos/fbnegro.png" alt=""></a>
-   </div>
-</div>  
-   
-  <div class="pie_contacto">
-    <h4 class="fw-bold">CONTACTO</h4>
-    <p class="piep">rupture@gmail.com</p>
-    <p class="piep">+598 92 911 785</p>
+  </div>
+  
+  <div class="container mt-4 mb-3"  data-aos="fade-up">
+    <div class="row  row-cols-4">
+  
+      <div class="col-lg col-12 d-flex justify-content-center mb-3">
+        <div>
+          <img src="../img/mustang.jpg" class="card-img-top" alt="...">
+          
+            <h5 class="card-title">Mustang</h5>
+            <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+                  </div>
+      </div>
+     
+      <div class="col-lg col-12 d-flex justify-content-center mb-3">
+        <div>
+          <img src="../img/clip.jpg" class="card-img-top" alt="...">
+          
+            <h5 class="card-title">CLIP</h5>
+            <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+                    
+        </div>
+      </div>
+  
+      <div class="col-lg col-12 d-flex justify-content-center mb-3 ">
+        <div>
+          <img src="../img/masamor.jpeg" class="card-img-top" alt="...">
+          
+            <h5 class="card-title">MÁS AMOR</h5>
+            <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+                  </div>
     </div>
-</div>
-</footer>
-</div>
+    
+     
+  </div>
+  </div>
+  <div class="container mt-4 mb-3"  data-aos="fade-up">
+    <div class="row  row-cols-4">
+  
+      <div class="col-lg col-12 d-flex justify-content-center mb-3">
+        <div>
+          <img src="../img/64327625a2b102.01416395.jpg" class="card-img-top" alt="...">
+          
+            <h5 class="card-title">PURR..</h5>
+            <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+            
+                  </div>
+      </div>
+     
+      <div class="col-lg col-12 d-flex justify-content-center mb-3">
+        <div>
+          <img src="../img/corazones.jpeg" class="card-img-top" alt="...">
+          
+            <h5 class="card-title">EXPLOVE</h5>
+            <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+                               
+        </div>
+      </div>
+  
+      <div class="col-lg col-12 d-flex justify-content-center mb-3 ">
+        <div>
+          <img src="../img/runegro.jpg" class="card-img-top" alt="...">
+          
+            <h5 class="card-title">RUPTURE</h5>
+            <p>700$</p>
+            <a href="#" class="btn btn-outline-dark">Comprar</a>
+                  </div>
+    </div>
+    
+     
+  </div>
+  </div>
+  
+  
+  
+  
+  </main>
+  <!--========================================================== -->
+                          <!--FOOTER-->
+  <!--========================================================== -->
+  <hr class="featurette-divider">
+  
+  <footer class="mt-4">
+    
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg col-sm-12">
+  
+          <img src="../img/LOGO LINEAS.png" >
+  
+      </div>
+      <div class="col-lg col-sm-12 mt-3">
+        <h4 class="fw-bold">REDES SOCIALES</h4>
+        <div class="pright">
+            <a href="https://www.instagram.com/rupture____/" target="_blank" class="pright"> <img src="../img/Iconos/logotipo-de-instagram.png" alt=""></a>
+            <a href="https://www.behance.net/pilarfleitas/projects" target="_blank" class="pright"> <img src="../img/Iconos/behance.png"></a>
+            <a href="https://es-es.facebook.com/" class="pright"><img src="../img/Iconos/facebook.png" alt=""></a>
+      </div>
+    </div>
+      <div class="col-lg col-sm-12 mt-3">
+        <h4 class="fw-bold">CONTACTO</h4>
+        <p class="piep">rupture@gmail.com</p>
+        <p class="piep">+598 92 911 785</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+  <!-- archivo bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+<!-- script aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script>
+    AOS.init();
+  </script> 
 </body>
-</html>
+  </html>

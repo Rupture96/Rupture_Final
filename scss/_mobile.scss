@@ -1,0 +1,107 @@
+@media (max-width:768px){
+    /* GENERAL MOBILE */
+   
+    .encabezado, .pie, .headercontact{
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .encabezado_nav{
+        padding: 0;
+        flex-wrap: wrap;
+        font-size: 15px;
+        justify-content: space-between;
+        
+    }
+    .pie{font-size: 15px;}
+    .piep{font-size: 12px; }
+    .pie_logo{ margin: 1rem;}
+    .pie_contacto{display: contents;
+    line-height: 1.5;}
+
+.pie_rrss{line-height: 1.5;}
+.sizeimg{width: 100%;
+height: auto;}    
+.iconos{ text-align: center;}
+.paddingnav{padding-left: 5px;}
+    /* HOME MOBILE */
+    .encabezado_img{margin-top: 1.5rem;}
+
+    .contenido{
+        align-items:center;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    hr {width: 150px;
+        height: 0.5px;
+        background-color: black;
+        margin-bottom: 30px;
+       
+      }
+.contenidovariable{padding: 20px; }
+.contenido_titulo{display: flex;
+margin-bottom: 10px;}
+.context{line-height: 2;
+        text-decoration: none;
+    }
+    // contactanos///////
+    .gridcontact{display: grid;
+    flex-direction: column;}
+    .contenido_contacto{display: flex;
+        flex-direction: column;
+        align-items: center;}
+    .titulocontacto{text-align: center;
+    margin-top: 10px;}
+    .mtb{margin-top: 5px;
+    margin-bottom: 5px;}
+    .form{
+       
+          border-radius: 10px;  
+          padding-top: 30px;
+          padding-bottom: 20px;  
+        background-color: #f5f5f5; 
+        padding-left: 30px; }
+        input{
+            background-color: #fbfbfb; 
+            border-radius: 5px;  
+            border-style: solid; 
+            border-width: 1px; 
+            border-color: #212021; 
+            margin-top: 10px;  
+            padding-left: 10px;
+          margin-bottom: 20px; 
+        }
+        
+        
+        textarea{
+          background-color: #fbfbfb; 
+            border-radius: 5px;  
+            border-style: solid; 
+            border-width: 1px; 
+            border-color: #1c1b1b; 
+            margin-top: 10px;  
+            padding-left: 10px;
+          margin-bottom: 10px; 
+          padding-top: 15px; 
+        }
+        button{
+            padding-left: 5px;
+            padding-right: 5px; 	
+            margin-bottom: 10px; 
+            margin-top: 5px; 	
+            text-transform: uppercase;
+            background-color: #240404; 
+            border-color: #240404;
+            color: white; 
+            border-style: solid; 
+            border-radius: 10px;	
+            width: 1fr;   
+          cursor: pointer;
+        }
+   
+ 
+ }

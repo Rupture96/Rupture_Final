@@ -1,0 +1,91 @@
+@media (min-width:1024px){
+    .headercontact{display: flex;
+    align-items: center;
+padding: 1%;}
+    .encabezado{position: fixed;
+        margin: 20px;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;}
+    .encabezado_nav{padding-left: 190px;
+    font-size: 15px;}
+    li .dropdown{display: inline-block;
+         }
+   
+    
+    
+    .pie{display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto ;
+        justify-items: center;
+        } 
+    /*MAIN  */
+    .encabezado_nav{margin-left: 100px;}
+.paddingnav{ padding-left: 50px;}
+.contenido_contacto{ display: flex;
+align-items: center;
+flex-direction: column;}
+.contenidovariable{margin: 20px;}
+.sizeimg{width: 100%;
+    height: auto;}
+.margin_nos{margin: 10px;}
+
+.form{width: 460px; 
+    height: auto;
+    margin: 10px auto;
+      border-radius: 10px;  
+      padding-top: 30px;
+      padding-bottom: 20px;  
+    background-color: #f5f5f5; 
+    padding-left: 30px; }
+    input{
+        background-color: #fbfbfb; 
+        width: 408px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #212021; 
+        margin-top: 10px;  
+        padding-left: 10px;
+      margin-bottom: 20px; 
+    }
+    
+    
+    textarea{
+      background-color: #fbfbfb; 
+        width: 405px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #1c1b1b; 
+        margin-top: 10px;  
+        padding-left: 10px;
+      margin-bottom: 20px; 
+      padding-top: 15px; 
+    }
+    button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px; 	
+        margin-bottom: 20px; 
+        margin-top: 10px; 	
+        text-transform: uppercase;
+        background-color: #240404; 
+        border-color: #240404;
+        color: white; 
+        border-style: solid; 
+        border-radius: 10px;	
+        width: 420px;   
+      cursor: pointer;
+    }
+    .iconos{display: flex;
+        gap: 33px;}
+
+    .pright{padding-right: 10%;}
+    .pie{font-size: 15px;}
+    .piep{padding-top: 9px;}
+    
+}

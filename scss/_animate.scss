@@ -1,0 +1,17 @@
+@keyframes img-nosotros {
+    20% {
+transform: rotate(-45deg)
+    }
+    40%{ transform: rotate(45deg);
+
+    }
+   
+   
+    100%{
+transform: scale(1,1);
+    }   
+}    
+.rotate{ animation-name: img-nosotros;
+animation-iteration-count:5s;
+animation-duration: 5s;
+animation-delay: 1s;}
